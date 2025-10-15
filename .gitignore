@@ -6,7 +6,6 @@
 *.csv
 *.imls
 *uv.lock
-*.txt
 *.png
 *.js
 *.mjs
