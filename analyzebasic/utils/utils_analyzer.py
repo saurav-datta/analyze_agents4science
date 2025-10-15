@@ -128,7 +128,7 @@ class PaperAnalyzer:
             citations.extend(re.findall(pattern, text))
         metrics['citation_count'] = len(set(citations))
 
-        # FIX 3: Better reference counting - look for numbered or bulleted entries
+        # Better reference counting - look for numbered or bulleted entries
         ref_patterns = [
             r'References?\s*\n(.*?)(?:\n\n[A-Z]|\Z)',
             r'REFERENCES?\s*\n(.*?)(?:\n\n[A-Z]|\Z)',
@@ -195,7 +195,7 @@ class PaperAnalyzer:
         contributions = re.findall(contrib_pattern, text_lower)
         metrics['contribution_list_items'] = len(contributions)
 
-        # FIX 5: More flexible abstract detection
+        # More flexible abstract detection
         abstract_patterns = [
             r'abstract[:\s]*(.*?)(?:introduction|keywords|1\s+introduction|\n1\.)',
             r'ABSTRACT[:\s]*(.*?)(?:INTRODUCTION|Keywords|1\s+INTRODUCTION|\n1\.)',
