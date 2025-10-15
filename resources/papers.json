@@ -1,0 +1,93 @@
+{
+    "AI-1": {
+        "url": "https://openreview.net/attachment?id=0fo0d9Tbey&name=pdf",
+        "paper_text_id" : "StylisticCL",
+        "type": "AIGen",
+        "year": "2025"
+    },
+    "AI-2": {
+        "url": "https://openreview.net/pdf?id=l5Wrcgyobp",
+        "paper_text_id": "ScalableOversight",
+        "type": "AIGen",
+        "year": "2025"
+    },
+    "AI-3": {
+        "url": "https://openreview.net/pdf?id=ShWjvhAZGs",
+        "paper_text_id": "SyntheticFallacies",
+        "type": "AIGen",
+        "year": "2025"
+    },
+    "AI-4": {
+        "url": "https://openreview.net/pdf?id=wVn3uPvm9W",
+        "paper_text_id" : "Magellan",
+        "type": "AIGen",
+        "year": "2025"
+    },
+
+    "AI-5": {
+        "url": "https://openreview.net/pdf?id=cK8YYMc65B",
+        "paper_text_id" : "Decontextualization",
+        "type": "AIGen",
+        "year": "2025"
+    },
+    "NI-1": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/db988b089d8d97d0f159c15ed0be6a71-Paper-Conference.pdf",
+        "paper_text_id" : "LogicGateN",
+        "type": "NeurIPS",
+        "year": "2024"
+    },
+    "NI-2": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/d0ffb35aaa7faa894afe5060c694d674-Paper-Conference.pdf",
+        "paper_text_id" : "GraphCL",
+        "type": "NeurIPS",
+        "year": "2024"
+    },
+    "NI-3": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c2ce2f2701c10a2b2f2ea0bfa43cfaa3-Paper-Conference.pdf",
+        "paper_text_id" : "XLSTM",
+        "type": "NeurIPS",
+        "year": "2024"
+    },
+    "NI-4": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e6a11b618402617342f38f5b49430937-Paper-Conference.pdf",
+        "paper_text_id" : "GlobalClimate",
+        "type": "NeurIPS",
+        "year": "2024"
+    },
+    "NI-5": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c1e67cde895c3c91edb43569ad0df260-Paper-Conference.pdf",
+        "paper_text_id" : "ClinicalTS",
+        "type": "NeurIPS",
+        "year": "2024"
+    },
+    "G-1": {
+        "url": "https://arxiv.org/abs/2510.12801",
+        "paper_text_id" : "DeepMMSearch",
+        "type": "Generic",
+        "year": "2025"
+    },
+    "G-2": {
+        "url": "https://arxiv.org/pdf/2510.12798",
+        "paper_text_id" : "NextPoint",
+        "type": "Generic",
+        "year": "2025"
+    },
+    "G-3": {
+        "url": "https://arxiv.org/pdf/2510.12796",
+        "paper_text_id" : "DriveVLA",
+        "type": "Generic",
+        "year": "2025"
+    },
+    "G-4": {
+        "url": "https://arxiv.org/pdf/2510.12795",
+        "paper_text_id" : "CubicalMP",
+        "type": "Generic",
+        "year": "2025"
+    },
+    "G-5": {
+        "url": "https://arxiv.org/pdf/1706.03762",
+        "paper_text_id" : "Attention",
+        "type": "Generic",
+        "year": "2017"
+    }
+}
