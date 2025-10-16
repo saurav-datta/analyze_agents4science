@@ -61,6 +61,12 @@ def main():
             results_common,
             papers,
             title="Base metrics",
+        )
+    if FLAG_DISPLAY_TABLE_ALL:
+        DisplayHelper.display_results(
+            results_common,
+            papers,
+            title="Page count",
             metrics_to_display=['page_count']
         )
 

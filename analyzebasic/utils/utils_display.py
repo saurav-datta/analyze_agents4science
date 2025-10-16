@@ -59,11 +59,11 @@ class DisplayHelper:
         Generic display utility for analysis results.
         """
         # Overall metrics
-        # df_all = cls.format_comparison_table(results,
-        #                                      metrics_to_display=metrics_to_display,
-        #                                      metrics_to_exclude=metrics_to_exclude)
-        # print(f"\n=== {title} (Overall) ===")
-        # print(df_all.to_string())
+        df_all = cls.format_comparison_table(results,
+                                             metrics_to_display=metrics_to_display,
+                                             metrics_to_exclude=metrics_to_exclude)
+        print(f"\n=== {title} (Overall) ===")
+        print(df_all.to_string())
 
         print(f"\n=== {title} by {group_key.capitalize()} ===")
         grouped_tables = cls.format_comparison_by_type(
